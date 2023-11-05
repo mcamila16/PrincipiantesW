@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Infomacion de programacion" />
+        <meta name="author" content="CCarrillo, TContreras, JMontaño" />
+        <title>Pagina Principal</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#page-top">Aprende programación</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="login.jsp" onclick="cargarResgistro()">Registrarse</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="contenidoDinamico" id="contenidoDinamico"></section>
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Bienvenido!</h1>
+                    <h2 class="masthead-subheading mb-0">Un recurso en línea definitivo diseñado para hacer que el fascinante mundo de la programación en Java sea accesible y sencillo para principiantes. Si estás dando tus primeros pasos en el emocionante viaje de la programación, has llegado al lugar adecuado. 
+                               Java es uno de los lenguajes de programación más populares y versátiles, utilizado en una amplia variedad de aplicaciones, desde desarrollo de aplicaciones móviles hasta aplicaciones web y software empresarial. Sin embargo, la programación puede parecer abrumadora para los principiantes, y es por eso que hemos creado esta página, para allanar el camino y ayudarte a adentrarte en este mundo con confia</h2>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+        </header>
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="imagen/estructurada.png" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                             <h2 class="display-4">Programación Estructurada</h2><a href="ProgramacionE.jsp">Ver más</a>
+                            <p>La programación estructurada es un paradigma de programación que se basa en la organización lógica y clara del código. Se centra en la creación de programas mediante la división en bloques de código más pequeños y manejables, utilizando estructuras de control como secuencias, selecciones y bucles. El objetivo principal es mejorar la legibilidad y mantenibilidad del código, facilitando la detección y corrección de errores. En la programación estructurada, se evitan características como el uso excesivo de "goto" y se promueve la modularidad y la reutilización del código. Este enfoque ha sido fundamental en el desarrollo de software confiable y eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="imagen/poo.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Programación Orientada a Objetos POO</h2><a href="POO.jsp">Ver más</a>
+                            <p>La programación orientada a objetos (POO) es un paradigma de programación que se basa en la organización del código en torno a objetos, que son instancias de clases. Cada objeto tiene propiedades (atributos) y comportamientos (métodos) asociados. La POO se centra en la encapsulación, que protege los datos y funciones internos de un objeto, y la herencia, que permite la creación de nuevas clases basadas en clases existentes. También incluye el concepto de polimorfismo, que permite que objetos de diferentes clases respondan de manera similar a mensajes o solicitudes. La POO se utiliza para modelar problemas del mundo real y fomenta la reutilización de código, facilitando el desarrollo de software modular y más mantenible.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="py-5 bg-black">
+            <div class="container px-5"><p class="m-0 text-center text-white small">Universidad de Cundinamarca</p></div>
+        </footer>
+    </body>
+    <script src="js/funcionesIndex.js"></script>
+</html>

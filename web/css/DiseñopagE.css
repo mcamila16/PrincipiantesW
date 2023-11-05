@@ -1,0 +1,115 @@
+body{
+    width: 800px;
+    margin: 5px auto;
+    font-family: sans-serif;
+     background-color: #FFFFFF;
+}
+header{
+    background-color: #FFFFFF;
+}
+h1 {
+    font-size: 36px;
+    color: #83AF7C;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    color: #555;
+    text-align: left;
+}
+h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+p1,p4,p5{
+    font-size: 18px;
+    color: #030303;
+    margin: 10px 0;
+    line-height: 24px      
+        
+}
+p2{
+   font-size: 16px;
+    color: #030303;
+    margin: 10px 0;
+    line-height: 30px    
+        
+}
+p3{
+    font-size: 16px;
+    color: #030303;
+    line-height: 24px; 
+    margin-right: 20px;
+}
+p8, p9 {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 10px ;
+    line-height: 24px
+        
+}
+p10{
+    font-size: 18px;
+    color: #28B463;
+    margin: 10px 0;
+    line-height: 32px;
+   
+}
+p5{
+     font-family: monospace;
+    color: #008000;
+     line-height: 24px
+}
+p6 {
+    font-size: 18px;
+    color: #030303;
+    margin: 10px;
+    line-height: 24px
+   
+}
+#contenedor{
+    height:200px;
+    text-align: justify;
+    margin-top: 20px;
+}
+#contenedor1{
+height:400px;
+}
+.primeraI{
+ background-image: url("../imagen/pe1.jpeg");
+ background-size: 400px;
+ background-position: center;
+ background-repeat: no-repeat;
+} 
+.segI{
+ background-image: url("../imagen/peT.png");
+ background-size: 600px;
+ background-position: center;
+ background-repeat: no-repeat;  
+}
+.terI{
+ background-image: url("../imagen/PE2.png");
+ background-size: 400px;
+ background-position: center;
+ background-repeat: no-repeat; 
+}
+.cuarI{
+ background-image: url("../imagen/pe3.jpeg");
+ background-size: 500px;
+ background-position: center;
+ background-repeat: no-repeat;    
+}
+.quiI{
+ background-image: url("../imagen/pe4.jpeg");
+ background-size: 400px;
+ background-position: center;
+ background-repeat: no-repeat;  
+}
+.bs{
+ background-image: url("../imagen/cis4.jpeg");
+ background-size: 280px;
+ background-position: center;
+ background-repeat: no-repeat;  
+}

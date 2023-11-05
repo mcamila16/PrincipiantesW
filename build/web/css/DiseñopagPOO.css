@@ -1,0 +1,65 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5/11/2023, 12:28:09 p. m.
+    Author     : camil
+*/
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        .link {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .escudo_udec {
+            position: fixed;
+            top: 10px; /* ajusta este valor para cambiar la posición vertical */
+            right: 10px; /* ajusta este valor para cambiar la posición horizontal */
+            width: 100px; /* ajusta el tamaño del logo según sea necesario */
+            height: auto;
+            z-index: 9999;
+        }
+
+        .banner {
+            background-color: #006400; /* ajusta este valor para cambiar el color */
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+        }
